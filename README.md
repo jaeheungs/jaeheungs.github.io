@@ -1,2 +1,2 @@
-# jaeehungs.github.io
+# jaeheungs.github.io
 homepage
