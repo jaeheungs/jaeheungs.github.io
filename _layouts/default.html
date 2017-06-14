@@ -37,12 +37,40 @@
     <div class="wrapper">
 
       <section>
-        <div id="title">
+        {% if page.show_info %}
+        <div id="title" style="text-align:center">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.intro | default: site.github.project_tagline }}</p>
-          <!-- <p>{{ site.myintro | default: site.github.project_tagline }}</p> -->
+          <table align="center">
+            <tr>
+              <td width="33.33%">
+                <div style="text-align:left">
+                  Researcher @ CHIC<br>
+                  <a href="http://chic.re.kr/eng/">Center of Human-centered<br>Interaction for Coexistence</a><br>
+                  Email: jhsurh [at] chic.re.kr
+                </div>
+              </td>
+              <td width="33.33%">
+                <div style="text-align:center">
+                  Research Interests:<br>
+                  Computational Photography<br>
+                  Stereo Matching<br>
+                  3D Computer Vision
+                </div>
+              </td>
+              <td width="33.33%">
+                <div style="text-align:right">
+                  <a href="./">[CV]</a><br>
+                  <a href="./">[Github]</a><br>
+                  <a href="./">[Google Scholar]</a><br>
+                  <a href="./">[LinkedIn]</a>
+                </div>
+              </td>
+            </tr>
+          </table>
           <hr>
         </div>
+        {% endif %}
+
         {{ content }}
 
       </section>

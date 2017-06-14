@@ -4,22 +4,39 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Publications</h1>
   
   {{ content }}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div>
+    <table>
+      {% assign date_format = site.minima.date_format | default: "%b %Y" %}
+      {% assign sorted = (site.pubs | sort: 'date') | reverse %}
+      {% for pub in sorted %}
+        <tr>
+          <td>
+            <div  align="center">
+              <img src="{{ pub.impath }}" alt="{{ pub.imalt }}" height="110">
+            </div>
+          </td>
+          <td>
+            <p class="pub-info" style="line-height: 180%">
+              <b>{{ pub.title }}</b> <em>[{{ pub.oral }}]</em><br>
+              {{ pub.auth }}<br>
+              <i>{{ pub.pub }}, {{ pub.date | date: date_format }}</i><br>
+              {% if pub.pdf %}
+                <a class="pub-link" href="{{ pub.pdf }}" target="_blank">[PDF]</a>
+              {% endif %}
+              <a class="prj-link" href="{{ pub.url }}" target="_blank">[Project Page]</a>
+              {% if pub.bib %}
+                <a class="prj-link" href="{{ pub.url }}" target="_blank">[bibtex]</a>
+              {% endif %}
+            </p>
+          </td>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 

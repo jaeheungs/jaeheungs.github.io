@@ -16,43 +16,14 @@
 title: Jaeheung Surh
 email: jaeheungsurh@gmail.com
 description: Jaeheung Surh's Website
-mytitle: >
-  Researcher @ CHIC<br>
-  <a href="http://chic.re.kr/eng/">Center of Human-centered<br>Interaction for Coexistence (CHIC)</a><br>
-myintro: > # this means to ignore newlines until "baseurl:"
-  Email: jhsurh [at] chic.re.kr<br>
-  Research Interests:<br>
-  Computational Photography<br>
-  Stereo Matching<br>
-  3D Computer Vision
-intro: >
-  <table border=0>
-    <tr>
-      <td align="left" valign="center">
-        Researcher @ CHIC<br>
-        <a href="http://chic.re.kr/eng/">Center of Human-centered<br>Interaction for Coexistence</a><br>
-        Email: jhsurh [at] chic.re.kr
-      </td>
-      <td align="center" valign="center">
-        Research Interests:<br>
-        Computational Photography<br>
-        Stereo Matching<br>
-        3D Computer Vision
-      </td>
-      <td align="right" valign="center">
-        <a href="./">[CV]</a><br>
-        <a href="./">[Github]</a><br>
-        <a href="./">[Google Scholar]</a><br>
-        <a href="./">[LinkedIn]</a>
-      </td>
-    </tr>
-  </table>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github:
   repository_url: https://github.com/jaeheungs?tab=repositories
   github_username:  jaeheungs
+collections:
+  - pubs
 
 # Build settings
 markdown: kramdown
