@@ -22,6 +22,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github:
   repository_url: https://github.com/jaeheungs?tab=repositories
   github_username:  jaeheungs
+linkedin:
+  url: https://www.linkedin.com/in/jaeheung-surh-0a007b24/
+cv: assets/pdf/jhscv.pdf
 collections:
   - pubs
 
