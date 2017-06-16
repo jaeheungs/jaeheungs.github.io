@@ -24,9 +24,9 @@ github:
   github_username:  jaeheungs
 linkedin:
   url: https://www.linkedin.com/in/jaeheung-surh-0a007b24/
-cv: assets/pdf/Jaeheung_Surh_CV.pdf
+cv: /assets/pdf/Jaeheung_Surh_CV.pdf
 gscholar: https://scholar.google.com/citations?user=UYaHNtQAAAAJ&hl=en&oi=ao
-profile_pic: assets/iamges/profile pic_portrait.jpg
+profile_pic: /assets/images/profile_pic_portrait.jpg
 collections:
   pubs:
     output: true

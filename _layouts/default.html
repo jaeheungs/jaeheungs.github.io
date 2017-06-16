@@ -18,6 +18,11 @@
     table, th, td {
         border: 0px;
     }
+
+    img {
+      max-width: 36%;
+      height: auto;
+    }
     </style>
   </head>
   <body>
@@ -38,18 +43,29 @@
 
       <section>
         {% if page.show_info %}
-        <div id="title" style="text-align:center">
-          <h1 style="text-align:left">{{ site.title | default: site.github.repository_name }}</h1>
+        <div id="title" align="center">
           <table align="center">
             <tr>
-              <td width="33.33%">
+              <td rowspan="2">
+                <div>
+                  <img class="resize" src="{{ site.base_url }}{{ site.profile_pic }}">
+                </div>
+              </td>
+              <td style="text-align:left" colspan="3" width="800px" height="20px">
+                <div id="title" align="left">
+                  <h1 style="text-align:left">{{ site.title | default: site.github.repository_name }}</h1>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="250px" height="30px">
                 <div style="text-align:left">
                   Researcher @ CHIC<br>
                   <a href="http://chic.re.kr/eng/">Center of Human-centered<br>Interaction for Coexistence</a><br>
                   Email: jhsurh [at] chic.re.kr
                 </div>
               </td>
-              <td width="33.33%">
+              <td width="250px" height="30px">
                 <div style="text-align:center">
                   Research Interests:<br>
                   Computational Photography<br>
@@ -57,7 +73,7 @@
                   3D Computer Vision
                 </div>
               </td>
-              <td width="33.33%">
+              <td width="250px" height="30px">
                 <div style="text-align:right">
                   <a href="{{ site.cv }}" target="_blank">[CV]</a><br>
                   <a href="{{ site.github.repository_url }}" target="_blank">[Github]</a><br>

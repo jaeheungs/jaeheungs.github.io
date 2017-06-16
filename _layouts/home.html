@@ -14,13 +14,13 @@ layout: default
       {% assign sorted = (site.pubs | sort: 'date') | reverse %}
       {% for pub in sorted %}
         <tr>
-          <td>
-            <div  align="center">
-              <a href="{{ pub.url }}"><img src="{{ pub.thumb }}" height="110"></a>
+          <td height="110px">
+            <div align="center">
+              <a href="{{ pub.url }}"><img src="{{ pub.thumb }}" width="200" height="110"></a>
             </div>
           </td>
-          <td>
-            <p class="pub-info" style="line-height: 180%">
+          <td height="110px">
+            <div class="pub-info">
               <b>{{ pub.title }}</b> <em>[{{ pub.oral }}]</em><br>
               {{ pub.auth }}<br>
               <i>{{ pub.pub }}, {{ pub.date | date: date_format }}</i><br>
@@ -44,7 +44,7 @@ layout: default
               {% if pub.bib %}
                 <a class="prj-link" href="{{ pub.url }}#bib">[bibtex]</a>
               {% endif %}
-            </p>
+            </div>
           </td>
         </tr>
       {% endfor %}
