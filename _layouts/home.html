@@ -16,7 +16,7 @@ layout: default
         <tr>
           <td>
             <div  align="center">
-              <a href="{{ pub.impath }}"><img src="{{ pub.thumb }}" height="110"></a>
+              <a href="{{ pub.url }}"><img src="{{ pub.thumb }}" height="110"></a>
             </div>
           </td>
           <td>
@@ -27,9 +27,22 @@ layout: default
               {% if pub.pdf %}
                 <a class="pub-link" href="{{ pub.pdf }}" target="_blank">[PDF]</a>
               {% endif %}
-              <a class="prj-link" href="{{ pub.url }}" target="_blank">[Project Page]</a>
+              <a class="prj-link" href="{{ pub.url }}">[Project Page]</a>
+              {% if pub.code %}
+                {% if pub.src %}
+                  <a class="pub-link" href="{{ pub.src }}">[Source Code]</a>
+                {% else %}
+                  [Source Code ASAP]
+                {% endif %}
+              {% endif %}
+              {% if pub.inst %}
+                <a class="pub-link" href="{{ pub.inst }}" target="_blank">[Instructables]</a>
+              {% endif %}
+              {% if pub.stlf3d %}
+                <a class="pub-link" href="{{ pub.stlf3d }}" target="_blank">[STL+Fusion3D Files]</a>
+              {% endif %}
               {% if pub.bib %}
-                <a class="prj-link" href="{{ pub.url }}" target="_blank">[bibtex]</a>
+                <a class="prj-link" href="{{ pub.url }}#bib">[bibtex]</a>
               {% endif %}
             </p>
           </td>
