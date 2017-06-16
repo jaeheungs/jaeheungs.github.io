@@ -6,7 +6,6 @@ auth:	"Bokyung Lee, Jiwoo Hong, <em>Jaeheung Surh</em>, and Daniel Saakes"
 pub:	"ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)"
 date:   2017-05-01 00:00:00 +0900
 impath:	"../assets/images/thumb_orimandu_vid.png"
-imalt:	"Orimandu"
 ---
 
 Food 3D printing is getting the spotlight by offering the opportunity to customize food appearances, textures, and flavors that are troublesome to make by hand. Additive manufacturing machines extrude ingredients into a certain shape, however, they cannot be applied to all types of food, such as mandu (Korean dumpling). In this pictorial, we extend the research on digital gastronomy by using digital fabrication to create custom tools that assist the process of cooking. We present the iterative process of designing the “Ori-mandu” system, and how Ori-mandu enables users to fabricate dumplings in whatever shape they want.
