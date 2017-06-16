@@ -3,7 +3,7 @@ layout: project
 title:  "Ori-mandu: Korean Dumpling into Whatever Shape You  Want"
 oral:	"Video Showcase"
 auth:	"Bokyung Lee, Jiwoo Hong, <em>Jaeheung Surh</em>, and Daniel Saakes"
-pub:	"ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)"
+pub:	"ACM SIGCHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI)"
 date:   2017-05-01 00:00:00 +0900
 thumb:	"/assets/images/thumb_orimandu_vid.jpg"
 pdf:	"/assets/pdf/DIS2017_Orimandu.pdf"
@@ -29,7 +29,7 @@ Bibtex:
 @inproceedings{lee2017ori,
  author = {Lee, Bokyung and Hong, Jiwoo and Surh, Jaeheung and Saakes, Daniel},
  title = {Ori-mandu: Korean Dumpling into Whatever Shape You Want},
- booktitle = {Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems},
+ booktitle = {Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI)},
  year = {2017},
 } 
 ```

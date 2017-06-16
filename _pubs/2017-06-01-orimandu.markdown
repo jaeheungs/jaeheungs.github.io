@@ -29,7 +29,7 @@ Bibtex:
 @inproceedings{lee2017ori,
   title={Ori-mandu: Korean Dumpling into Whatever Shape You Want},
   author={Lee, Bokyung and Hong, Jiwoo and Surh, Jaeheung and Saakes, Daniel},
-  booktitle={Proceedings of the 2017 Conference on Designing Interactive Systems},
+  booktitle={Proceedings of the 2017 Conference on Designing Interactive Systems (DIS)},
   year={2017},
 }
 ```
