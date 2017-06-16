@@ -32,6 +32,7 @@ collections:
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-midnight
+future: true
 gems:
   - jekyll-feed
 exclude:
