@@ -5,8 +5,8 @@ oral:	"Spotlight"
 auth:	"<em>Jaeheung Surh</em>, Hae-Gon Jeon, Yunwon Park, Sunghoon Im, Hyowon Ha, and In So Kweon"
 pub:	"IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
 date:   2017-07-01 00:00:00 +0900
-impath:	"../assets/images/thumb_RDF.png"
-pdf:	"../assets/pdf/CVPR2017_RDF.pdf"
+impath:	"/assets/images/thumb_RDF.png"
+pdf:	"/assets/pdf/CVPR2017_RDF.pdf"
 bib:	true
 ---
 
@@ -20,4 +20,4 @@ Bibtex:
     BOOKTITLE = {Proceedings of International Conference on Computer Vision and Pattern Recognition (CVPR)},
     YEAR = {2017}
 }
-```
+```bib

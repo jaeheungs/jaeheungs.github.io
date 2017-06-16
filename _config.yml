@@ -17,7 +17,7 @@ title: Jaeheung Surh
 email: jaeheungsurh@gmail.com
 description: Jaeheung Surh's Website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jaeheungs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github:
   repository_url: https://github.com/jaeheungs?tab=repositories
