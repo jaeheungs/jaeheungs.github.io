@@ -21,7 +21,11 @@ layout: default
           </td>
           <td height="110px">
             <div class="pub-info">
-              <b>{{ pub.title }}</b> <em>[{{ pub.oral }}]</em><br>
+              <a href="{{ pub.url }}"><b>{{ pub.title }}</b></a>
+              {% if pub.oral %}
+                <em>[{{ pub.oral }}]</em>
+              {% endif %}
+              <br>
               {{ pub.auth }}<br>
               <i>{{ pub.pub }}, {{ pub.date | date: date_format }}</i><br>
               {% if pub.pdf %}
