@@ -13,8 +13,8 @@ bib:	true
 ---
 
 <div align="center">
-<!-- 	<iframe width="900" height="510" src="https://www.youtube.com/embed/9arP_plSUEI" frameborder="0" allowfullscreen></iframe>
- --></div>
+	<img src="/assets/images/imsl.png">
+</div>
 <br>
 
 <h1 class="post-title" itemprop="name headline">Abstract</h1>
