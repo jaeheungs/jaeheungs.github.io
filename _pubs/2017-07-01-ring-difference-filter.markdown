@@ -9,11 +9,20 @@ thumb:	"/assets/images/thumb_RDF.jpg"
 pdf:	"/assets/pdf/CVPR2017_RDF.pdf"
 code:	true
 src:	"https://github.com/jaeheungs/rdf_depth_from_focus"
+pres:	"https://www.youtube.com/watch?v=p5NrjcFY3vM"
+talk:	"https://www.youtube.com/watch?v=oY357SiJPQM"
 bib:	true
 ---
 
+Spotlight Presentation Video:
 <div align="center">
-	<iframe width="900" height="510" src="https://www.youtube.com/embed/9arP_plSUEI" frameborder="0" allowfullscreen></iframe>
+	<iframe width="850" height="510" src="https://www.youtube-nocookie.com/embed/p5NrjcFY3vM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
+
+NAVER D<sup>2</sup> Invited Talk Video:
+<div align="center">
+	<iframe width="850" height="510" src="https://www.youtube-nocookie.com/embed/oY357SiJPQM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <br>
 

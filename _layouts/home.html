@@ -45,6 +45,12 @@ layout: default
               {% if pub.stlf3d %}
                 <a class="pub-link" href="{{ pub.stlf3d }}" target="_blank">[STL+Fusion3D Files]</a>
               {% endif %}
+              {% if pub.pres %}
+                <a class="prj-link" href="{{ pub.pres }}">[Presentation Video]</a>
+              {% endif %}
+              {% if pub.talk %}
+                <a class="prj-link" href="{{ pub.talk }}">[Invited Talk]</a>
+              {% endif %}
               {% if pub.bib %}
                 <a class="prj-link" href="{{ pub.url }}#bib">[bibtex]</a>
               {% endif %}
