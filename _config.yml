@@ -35,7 +35,7 @@ collections:
 markdown: kramdown
 theme: jekyll-theme-midnight
 future: true
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
